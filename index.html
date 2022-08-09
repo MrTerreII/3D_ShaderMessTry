@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Importante para poder hacer funcionar los imports. NO añadir comentarios en el JSON (Es JSON lo de dentro de {})-->
+    <script type="importmap">
+        {
+            "imports": {
+                "three": "https://unpkg.com/three@0.143.0/build/three.module.js"                
+            }
+        }
+    </script>
+    <script src="https://cdn.jsdelivr.net/gh/kripken/ammo.js@HEAD/builds/ammo.wasm.js"></script>
+    <title>Try with mesh and all that stuff</title>
+</head>
+<body> 
+    <script src="./myjs.js" type="module"></script>
+</body>
+</html>
